@@ -25,5 +25,5 @@ app.get('/', (req, res) => {
 // Future API routes can be added here, e.g.,
 // app.use('/api/users', require('./routes/users'));
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
